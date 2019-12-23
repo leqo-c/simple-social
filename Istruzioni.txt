@@ -1,0 +1,29 @@
+Modalità di esecuzione del codice
+
+Il progetto consiste in due archivi eseguibili JAR:
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+SocialClient.jar: Per eseguire l'archivio occorre aprire un terminale, posizionarsi sulla cartella che contiene il file .jar ed eseguire il seguente comando:
+
+java -jar SocialClient.jar
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+SocialServer.jar: Per eseguire l'archivio occorre aprire un terminale, posizionarsi sulla cartella che contiene il file .jar ed eseguire il seguente comando:
+
+java -jar SocialServer.jar [timeout]
+
+dove \texttt{timeout} specifica il numero di secondi per cui una richiesta di amicizia in sospeso viene memorizzata dal server. Se non è specificato o se viene inserito un valore non valido, \texttt{timeout} assume il valore di default 86400 (1 giorno).
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+------
+NOTE 
+------
+
+I file nei quali viene salvato lo stato della rete, le richieste di amicizia non gestite e i contenuti non visualizzati vengono creati e modificati nella medesima cartella che contiene i due archivi eseguibili. Più precisamente, il server gestisce i file che contengono informazioni sugli utenti iscritti e sulla rete di amicizie, mentre per ogni utente sono presenti i file che contengono i contenuti non letti e le richieste di amicizia.
+
