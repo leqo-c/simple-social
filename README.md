@@ -31,4 +31,4 @@ Users can register, login and interact with each other. The lifecycle of the soc
 
 Instructions are prompted to the user by the `SocialClient` module and are written in Italian. The `SocialServer` displays a notification every time a new content is published. In addition, it shows the number of on-line users every ten seconds.
 
-A written report is available in Italian in the [SimpleSocial.pdf](SimpleSocial.pdf) file.
+A written report is available in Italian in the [SimpleSocial.pdf](SimpleSocial.pdf) file, while the source code can be found under the [src/it/unipi/rcl/cariaggil](src/it/unipi/rcl/cariaggil).
